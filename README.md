@@ -1,4 +1,4 @@
-# MANET-routing-protocol-comparison
+<img width="1920" height="1440" alt="delay_vs_nodes" src="https://github.com/user-attachments/assets/8d13699d-5622-4a93-81f0-82b48a03c03a" /># MANET-routing-protocol-comparison
 A comparative performance analysis of MANET routing protocols (AODV, DSDV, and OLSR) based on delay, packet delivery ratio, and throughput.
 # MANET Routing Protocol Performance Analysis 📡
 
@@ -39,21 +39,18 @@ The following metrics are used for comparison:
 ### 🔹 Delay vs Number of Nodes
 This plot shows how the average end-to-end delay varies as the number of nodes increases for each routing protocol.
 
-![Delay vs Number of Nodes](delay_vs_nodes.png)
 
 ---
 
 ### 🔹 Packet Delivery Ratio vs Number of Nodes
 This plot compares the reliability of each protocol in terms of successful packet delivery.
 
-![PDR vs Number of Nodes](pdr_vs_nodes.png)
 
 ---
 
 ### 🔹 Throughput vs Number of Nodes
 This plot illustrates the data transmission efficiency of each routing protocol.
 
-![Throughput vs Number of Nodes](throughput_vs_nodes.png)
 
 ---
 
