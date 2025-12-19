@@ -1,4 +1,4 @@
-<img width="1920" height="1440" alt="delay_vs_nodes" src="https://github.com/user-attachments/assets/8d13699d-5622-4a93-81f0-82b48a03c03a" /># MANET-routing-protocol-comparison
+# MANET-routing-protocol-comparison
 A comparative performance analysis of MANET routing protocols (AODV, DSDV, and OLSR) based on delay, packet delivery ratio, and throughput.
 # MANET Routing Protocol Performance Analysis 📡
 
