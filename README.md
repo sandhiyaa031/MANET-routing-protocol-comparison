@@ -1,64 +1,60 @@
-# MANET-routing-protocol-comparison
-A comparative performance analysis of MANET routing protocols (AODV, DSDV, and OLSR) based on delay, packet delivery ratio, and throughput.
-# MANET Routing Protocol Performance Analysis 📡
+# MANET Routing Protocol Comparison using NS-3
 
 ## Overview
-This project presents a comparative performance analysis of Mobile Ad Hoc Network (MANET) routing protocols — **AODV**, **DSDV**, and **OLSR**.  
-The evaluation is carried out by analyzing key network performance metrics as the number of nodes increases.
 
-The goal of this project is to study the behavior and efficiency of different MANET routing protocols under varying network sizes.
+This project implements a comparative performance study of three popular MANET routing protocols:
 
----
+- AODV (Ad hoc On-Demand Distance Vector)
+- DSDV (Destination-Sequenced Distance Vector)
+- OLSR (Optimized Link State Routing)
 
-## Routing Protocols Compared
-- **AODV (Ad hoc On-Demand Distance Vector)**
-- **DSDV (Destination-Sequenced Distance Vector)**
-- **OLSR (Optimized Link State Routing)**
+All protocols are evaluated under identical simulation conditions using the NS-3 network simulator to analyze their behavior in mobile ad-hoc networks.
 
 ---
 
-## Performance Metrics
-The following metrics are used for comparison:
+## Objectives
 
-- **Average End-to-End Delay**
-- **Packet Delivery Ratio (PDR)**
-- **Throughput**
+- Design reproducible MANET simulation experiments in NS-3  
+- Compare reactive and proactive routing protocols  
+- Evaluate protocols using standard performance metrics:
+  - Packet Delivery Ratio (PDR)
+  - End-to-End Delay
+  - Throughput
+- Analyze performance trade-offs under node mobility
 
 ---
 
 ## Experimental Setup
-- Network type: Mobile Ad Hoc Network (MANET)
-- Number of nodes: 60 to 130
-- Evaluation method: Simulation-based analysis
-- Data analysis and plotting performed using Python
+
+- Simulator: NS-3  
+- Network Type: Mobile Ad-hoc Network (MANET)  
+- Protocols Compared: AODV, DSDV, OLSR  
+- Mobility Model: Random Waypoint (change if different)  
+- Traffic Type: CBR over UDP (change if different)  
+- Evaluation Metrics:
+  - Packet Delivery Ratio
+  - Average End-to-End Delay
+  - Throughput  
+
+All simulations are run with the same topology, number of nodes, mobility pattern, and traffic configuration to ensure a fair comparison.
 
 ---
 
-## Results
+## Methodology
 
-### 🔹 Delay vs Number of Nodes
-This plot shows how the average end-to-end delay varies as the number of nodes increases for each routing protocol.
-
-
----
-
-### 🔹 Packet Delivery Ratio vs Number of Nodes
-This plot compares the reliability of each protocol in terms of successful packet delivery.
-
-
----
-
-### 🔹 Throughput vs Number of Nodes
-This plot illustrates the data transmission efficiency of each routing protocol.
-
-
----
-
-## Observations
-- OLSR demonstrates stable performance with higher packet delivery ratio as node density increases.
-- AODV shows fluctuating delay and throughput due to its on-demand routing nature.
-- DSDV exhibits consistent but comparatively lower performance across metrics.
+1. Configure a common MANET scenario in NS-3  
+2. Run the simulation separately using:
+   - AODV
+   - DSDV
+   - OLSR
+3. Collect trace files for each run  
+4. Compute:
+   - Packet Delivery Ratio
+   - End-to-End Delay
+   - Throughput  
+5. Compare and analyze the results
 
 ---
 
 ## Project Structure
+
