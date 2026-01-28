@@ -54,14 +54,6 @@ All simulations are run with the **same topology, number of nodes, mobility patt
    - Throughput  
 5. Compare and analyze the results  
 
----
-
-## 🗂️ Project Structure
-├── scripts/ # NS-3 simulation scripts
-├── results/ # Output trace files / processed data
-├── plots/ # Graphs for PDR, delay, throughput
-└── README.md
-
 
 ---
 
