@@ -57,4 +57,64 @@ All simulations are run with the same topology, number of nodes, mobility patter
 ---
 
 ## Project Structure
+├── scripts/ # NS-3 simulation scripts
+├── results/ # Output trace files / processed data
+├── plots/ # Graphs for PDR, delay, throughput
+└── README.md
 
+
+
+---
+
+## How to Run
+
+1. Install NS-3
+2. Copy the script(s) into your NS-3 workspace
+3. Run:
+
+```bash
+./waf --run "your-script-name"
+```
+4. Output files will be generated in the results folder.
+
+Results
+
+## Results
+
+### End-to-End Delay vs Number of Nodes
+<img src="https://github.com/user-attachments/assets/a904989f-c040-4e7b-898e-4672ed815eaa" width="400"/>
+
+### Packet Delivery Ratio vs Number of Nodes
+<img src="https://github.com/user-attachments/assets/7f1245c1-e05c-4bc8-ace9-c6ee2409a9a5" width="400"/>
+
+### Throughput vs Number of Nodes
+<img src="https://github.com/user-attachments/assets/38183c1f-8b28-4cd7-8415-c937b2d2fe5c" width="400"/>
+
+Typical observations:
+
+AODV performs well in highly dynamic networks due to on-demand route discovery.
+
+OLSR performs better in relatively stable networks due to proactive routing.
+
+DSDV shows higher overhead when topology changes frequently.
+
+What This Project Demonstrates
+
+Understanding of MANET routing protocols
+
+Experience with NS-3 simulations
+
+Performance evaluation of network protocols
+
+Experimental comparison under controlled conditions
+
+Future Work
+
+Test with different node densities and mobility speeds
+
+Add more routing protocols
+
+Automate batch simulations and analysis
+
+Author
+Sandhiya D
