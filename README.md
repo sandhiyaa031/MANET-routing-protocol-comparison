@@ -92,29 +92,29 @@ Results
 
 Typical observations:
 
-AODV performs well in highly dynamic networks due to on-demand route discovery.
+- AODV performs well in highly dynamic networks due to on-demand route discovery.
 
-OLSR performs better in relatively stable networks due to proactive routing.
+- OLSR performs better in relatively stable networks due to proactive routing.
 
-DSDV shows higher overhead when topology changes frequently.
+- DSDV shows higher overhead when topology changes frequently.
 
-What This Project Demonstrates
+#What This Project Demonstrates :
 
-Understanding of MANET routing protocols
+- Understanding of MANET routing protocols
 
-Experience with NS-3 simulations
+- Experience with NS-3 simulations
 
-Performance evaluation of network protocols
+- Performance evaluation of network protocols
 
-Experimental comparison under controlled conditions
+- Experimental comparison under controlled conditions
 
-Future Work
+#Future Work
 
-Test with different node densities and mobility speeds
+- Test with different node densities and mobility speeds
 
-Add more routing protocols
+- Add more routing protocols
 
-Automate batch simulations and analysis
+- Automate batch simulations and analysis
 
 Author
 Sandhiya D
